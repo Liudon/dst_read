@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2014-07-09 15:42]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/x32/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[版主已阅]]></item>
+			<item id="identifier"><![CDATA[dst_read]]></item>
+			<item id="description"><![CDATA[方便管理组成员审核帖子内容，防止出现违规内容。]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[dst_read/]]></item>
+			<item id="copyright"><![CDATA[Don]]></item>
+			<item id="version"><![CDATA[2.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[read]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.2,X3.1,X3,X2.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[所有用户可见]]></item>
+				<item id="description"><![CDATA[已阅信息对所有用户可见，否则只对管理组用户可见。]]></item>
+				<item id="variable"><![CDATA[showAll]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[字体颜色]]></item>
+				<item id="description"><![CDATA[设置前台列表页已阅信息的字体颜色。]]></item>
+				<item id="variable"><![CDATA[color]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#FF0000]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[自定义文字1]]></item>
+				<item id="description"><![CDATA[自定义前台"已阅至"文字，例如设置为'已经阅读至'，则前台显示为{用户名} 已经阅读至 {N}#。注：{用户名}为已阅用户的名字，{N}为已阅楼层。]]></item>
+				<item id="variable"><![CDATA[readTo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[已阅至]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[自定义文字2]]></item>
+				<item id="description"><![CDATA[自定义前台"已阅"文字，例如设置为'已经阅读'，则前台显示为{用户名} 已经阅读。注：{用户名}为已阅用户的名字。]]></item>
+				<item id="variable"><![CDATA[hadRead]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[已阅]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[自定义文字3]]></item>
+				<item id="description"><![CDATA[自定义前台"标记已阅"按钮的文字，例如设置为'标记阅读'，则前台显示为标记阅读。]]></item>
+				<item id="variable"><![CDATA[click]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[标记已阅]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="no_perm"><![CDATA[您没有权限]]></item>
+				<item id="had_read"><![CDATA[此楼已阅]]></item>
+				<item id="read_success"><![CDATA[标记成功！]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="message_forward"><![CDATA[如果您的浏览器没有自动跳转，请点击此链接]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[
+更新说明：
+1. 代码完全重写，优化插件的数据库查询。
+2. 增加自定义已阅文字功能。
+3. 增加自定义已阅文字颜色功能。
+4. 记录已阅用户，已阅楼层显示标记已阅的用户名，以便后续查阅。
+5. 增加跳转页面，解决已阅楼层被删除后无法跳转到已阅楼层的问题。注：免费版本，跳转页面会有一个广告。
+
+授权说明：
+1. 本插件所有权归作者本人所有。
+2. 禁止未经授权的二次开发、修改、转让和销售。如果您需要定制请联系本人（邮箱地址：i@liudon.org）。
+		]]></item>
+	</item>
+</root>

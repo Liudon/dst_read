@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2014-07-09 15:42]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/x32/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[ª©¥D¤w¾\]]></item>
+			<item id="identifier"><![CDATA[dst_read]]></item>
+			<item id="description"><![CDATA[¤è«KºÞ²z²Õ¦¨­û¼f®Ö©«¤l¤º®e¡A¨¾¤î¥X²{¹H³W¤º®e¡C]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[dst_read/]]></item>
+			<item id="copyright"><![CDATA[Don]]></item>
+			<item id="version"><![CDATA[2.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[read]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.2,X3.1,X3,X2.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[©Ò¦³¥Î¤á¥i¨£]]></item>
+				<item id="description"><![CDATA[¤w¾\«H®§¹ï©Ò¦³¥Î¤á¥i¨£¡A§_«h¥u¹ïºÞ²z²Õ¥Î¤á¥i¨£¡C]]></item>
+				<item id="variable"><![CDATA[showAll]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[¦rÅéÃC¦â]]></item>
+				<item id="description"><![CDATA[³]¸m«e¥x¦Cªí­¶¤w¾\«H®§ªº¦rÅéÃC¦â¡C]]></item>
+				<item id="variable"><![CDATA[color]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#FF0000]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[¦Û©w¸q¤å¦r1]]></item>
+				<item id="description"><![CDATA[¦Û©w¸q«e¥x"¤w¾\¦Ü"¤å¦r¡A¨Ò¦p³]¸m¬°'¤w¸g¾\Åª¦Ü'¡A«h«e¥xÅã¥Ü¬°{¥Î¤á¦W} ¤w¸g¾\Åª¦Ü {N}#¡Cª`¡J{¥Î¤á¦W}¬°¤w¾\¥Î¤áªº¦W¦r¡A{N}¬°¤w¾\¼Ó¼h¡C]]></item>
+				<item id="variable"><![CDATA[readTo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[¤w¾\¦Ü]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[¦Û©w¸q¤å¦r2]]></item>
+				<item id="description"><![CDATA[¦Û©w¸q«e¥x"¤w¾\"¤å¦r¡A¨Ò¦p³]¸m¬°'¤w¸g¾\Åª'¡A«h«e¥xÅã¥Ü¬°{¥Î¤á¦W} ¤w¸g¾\Åª¡Cª`¡J{¥Î¤á¦W}¬°¤w¾\¥Î¤áªº¦W¦r¡C]]></item>
+				<item id="variable"><![CDATA[hadRead]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[¤w¾\]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[¦Û©w¸q¤å¦r3]]></item>
+				<item id="description"><![CDATA[¦Û©w¸q«e¥x"¼Ð°O¤w¾\"«ö¶sªº¤å¦r¡A¨Ò¦p³]¸m¬°'¼Ð°O¾\Åª'¡A«h«e¥xÅã¥Ü¬°¼Ð°O¾\Åª¡C]]></item>
+				<item id="variable"><![CDATA[click]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[¼Ð°O¤w¾\]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="no_perm"><![CDATA[±z¨S¦³Åv­­]]></item>
+				<item id="had_read"><![CDATA[¦¹¼Ó¤w¾\\]]></item>
+				<item id="read_success"><![CDATA[¼Ð°O¦¨¥\\¡I]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="message_forward"><![CDATA[¦pªG±zªºÂsÄý¾¹¨S¦³¦Û°Ê¸õÂà¡A½ÐÂIÀ»¦¹Ãì±µ]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[
+§ó·s»¡©ú¡J
+1. ¥N½X§¹¥þ­«¼g¡AÀu¤Æ´¡¥óªº¼Æ¾Ú®w¬d¸ß¡C
+2. ¼W¥[¦Û©w¸q¤w¾\¤å¦r¥\¯à¡C
+3. ¼W¥[¦Û©w¸q¤w¾\¤å¦rÃC¦â¥\¯à¡C
+4. °O¿ý¤w¾\¥Î¤á¡A¤w¾\¼Ó¼hÅã¥Ü¼Ð°O¤w¾\ªº¥Î¤á¦W¡A¥H«K«áÄò¬d¾\¡C
+5. ¼W¥[¸õÂà­¶­±¡A¸Ñ¨M¤w¾\¼Ó¼h³Q§R°£«áµLªk¸õÂà¨ì¤w¾\¼Ó¼hªº°ÝÃD¡Cª`¡J§K¶Oª©¥»¡A¸õÂà­¶­±·|¦³¤@­Ó¼s§i¡C
+
+±ÂÅv»¡©ú¡J
+1. ¥»´¡¥ó©Ò¦³ÅvÂk§@ªÌ¥»¤H©Ò¦³¡C
+2. ¸T¤î¥¼¸g±ÂÅvªº¤G¦¸¶}µo¡B­×§ï¡BÂàÅý©M¾P°â¡C¦pªG±z»Ý­n©w¨î½ÐÁp¨t¥»¤H¡]¶l½c¦a§}¡Ji@liudon.org¡^¡C
+		]]></item>
+	</item>
+</root>
