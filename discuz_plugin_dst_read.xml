@@ -86,6 +86,7 @@
                 <item id="no_perm"><![CDATA[您没有权限]]></item>
                 <item id="had_read"><![CDATA[此楼已阅]]></item>
                 <item id="read_success"><![CDATA[标记成功！]]></item>
+                <item id="nav_title"><![CDATA[跳转中心_版主已阅]]></item>
             </item>
             <item id="templatelang">
                 <item id="message_forward"><![CDATA[如果您的浏览器没有自动跳转，请点击此链接]]></item>

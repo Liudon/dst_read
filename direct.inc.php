@@ -8,6 +8,8 @@ if(!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 
+$navtitle = lang('plugin/dst_read', 'nav_title');
+
 $tid = intval($_GET['tid']);
 $pid = intval($_GET['pid']);
 
