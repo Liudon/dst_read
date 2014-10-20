@@ -5,7 +5,7 @@
  * 作者：Don(i.mu@qq.com)
  */
 if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
+    exit('Access Denied');
 }
 
 $sql = <<<EOF
@@ -35,5 +35,3 @@ EOF;
 runquery($sql);
 
 $finish = TRUE;
-
-?>
