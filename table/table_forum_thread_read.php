@@ -2,7 +2,7 @@
 /**
  * table_forum_thread_read.php
  *
- * 作者：Don(i@liudon.org)
+ * 作者：Don(i.mu@qq.com)
  */
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');

@@ -14,7 +14,7 @@
 			<item id="datatables"><![CDATA[]]></item>
 			<item id="directory"><![CDATA[dst_read/]]></item>
 			<item id="copyright"><![CDATA[Don]]></item>
-			<item id="version"><![CDATA[2.0]]></item>
+			<item id="version"><![CDATA[2.0.1]]></item>
 			<item id="__modules">
 				<item id="0">
 					<item id="name"><![CDATA[read]]></item>
@@ -31,7 +31,7 @@
 				</item>
 			</item>
 		</item>
-		<item id="version"><![CDATA[X3.2,X3.1,X3.0,X2.5]]></item>
+		<item id="version"><![CDATA[X3.2,X3.1,X3,X2.5]]></item>
 		<item id="var">
 			<item id="0">
 				<item id="displayorder"><![CDATA[1]]></item>
