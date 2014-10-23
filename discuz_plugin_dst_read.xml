@@ -78,6 +78,16 @@
                 <item id="value"><![CDATA[标记已阅]]></item>
                 <item id="extra"><![CDATA[]]></item>
             </item>
+            <item id="5">
+                <item id="displayorder"><![CDATA[6]]></item>
+                <item id="title"><![CDATA[开启跳转页面]]></item>
+                <item id="description"><![CDATA[开启后，若跳转到的楼层被删除后，会跳转到下一楼层的位置。
+关闭后，若跳转到的楼层被删除后，会跳转到帖子的首页。]]></item>
+                <item id="variable"><![CDATA[direct]]></item>
+                <item id="type"><![CDATA[radio]]></item>
+                <item id="value"><![CDATA[1]]></item>
+                <item id="extra"><![CDATA[]]></item>
+            </item>
         </item>
         <item id="installfile"><![CDATA[install.php]]></item>
         <item id="upgradefile"><![CDATA[upgrade.php]]></item>

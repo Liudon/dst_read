@@ -122,8 +122,14 @@ class plugin_dst_read_forum extends plugin_dst_read {
 
             $style = sprintf('color:%s;', $this->settings['color']);
 
-            // 楼层被删除后的跳转，增加一个跳转页面
-            $return[] = '[<a href="plugin.php?id=dst_read:direct&tid=' . $thread['tid'] . '&pid=' . $readlist[$thread['tid']]['pid'] . '" style="' . $style . '">' . $lang . '</a>]';
+            if ($this->settings['direct']) {
+                // 楼层被删除后的跳转，增加一个跳转页面
+                $directurl = sprintf('plugin.php?id=dst_read:direct&tid=%s&pid=%s', $thread['tid'], $readlist[$thread['tid']]['pid']);
+            } else {
+                $directurl = sprintf('forum.php?mod=redirect&goto=findpost&ptid=%s&pid=%s', $thread['tid'], $readlist[$thread['tid']]['pid']);
+            }
+
+            $return[] = '[<a href="' . $directurl . '" style="' . $style . '">' . $lang . '</a>]';
         }
 
         return $return;
