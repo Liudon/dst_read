@@ -57,7 +57,7 @@
                 <item id="description"><![CDATA[自定义前台"已阅至"文字。注：{user}为已阅用户的名字，{number}为已阅楼层。]]></item>
                 <item id="variable"><![CDATA[readTo]]></item>
                 <item id="type"><![CDATA[text]]></item>
-                <item id="value"><![CDATA[已阅至]]></item>
+                <item id="value"><![CDATA[{user}已阅至{number}楼]]></item>
                 <item id="extra"><![CDATA[]]></item>
             </item>
             <item id="3">
@@ -66,7 +66,7 @@
                 <item id="description"><![CDATA[自定义前台"已阅"文字。注：{user}为已阅用户的名字。]]></item>
                 <item id="variable"><![CDATA[hadRead]]></item>
                 <item id="type"><![CDATA[text]]></item>
-                <item id="value"><![CDATA[已阅]]></item>
+                <item id="value"><![CDATA[{user}已阅]]></item>
                 <item id="extra"><![CDATA[]]></item>
             </item>
             <item id="4">
