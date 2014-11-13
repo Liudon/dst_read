@@ -65,7 +65,7 @@ class plugin_dst_read_forum extends plugin_dst_read {
         return $return;
     }
 
-    function forumdisplay_thread_subject_output() {
+    function _forumdisplay_output() {
         global $_G;
 
         $return = array();
@@ -133,5 +133,19 @@ class plugin_dst_read_forum extends plugin_dst_read {
         }
 
         return $return;
+    }
+
+    function forumdisplay_thread_output() {
+        global $_G;
+
+        if (empty($_G['forum']['picstyle']) || $_G['cookie']['forumdefstyle']) {
+            return array();
+        }
+
+        return $this->_forumdisplay_output();
+    }
+
+    function forumdisplay_thread_subject_output() {
+        return $this->_forumdisplay_output();
     }
 }

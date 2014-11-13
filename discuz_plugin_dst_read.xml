@@ -14,7 +14,7 @@
             <item id="datatables"><![CDATA[]]></item>
             <item id="directory"><![CDATA[dst_read/]]></item>
             <item id="copyright"><![CDATA[Don]]></item>
-            <item id="version"><![CDATA[3.0]]></item>
+            <item id="version"><![CDATA[3.1]]></item>
             <item id="__modules">
                 <item id="0">
                     <item id="name"><![CDATA[read]]></item>
@@ -109,10 +109,11 @@
 3. 增加自定义已阅文字颜色功能。
 4. 记录已阅用户，已阅楼层显示标记已阅的用户名，以便后续查阅。
 5. 增加跳转页面，解决已阅楼层被删除后无法跳转到已阅楼层的问题。注：免费版本，跳转页面会有一个广告。
+6. 支持图文模式下显示已阅信息。
 
 授权说明：
 1. 本插件所有权归作者本人所有。
-2. 禁止未经授权的二次开发、修改、转让和销售。如果您需要定制请联系本人（邮箱地址：i.mu@qq.com）。
+2. 禁止未经授权的二次开发、修改、转让和销售。如果您需要定制请联系本人（邮箱地址：i@liudon.org）。
         ]]></item>
     </item>
 </root>
