@@ -129,7 +129,7 @@ class plugin_dst_read_forum extends plugin_dst_read {
                 $directurl = sprintf('forum.php?mod=redirect&goto=findpost&ptid=%s&pid=%s', $thread['tid'], $readlist[$thread['tid']]['pid']);
             }
 
-            $return[] = '[<a href="' . $directurl . '" style="' . $style . '">' . $lang . '</a>]';
+            $return[] = '<a href="' . $directurl . '" style="' . $style . '">' . $lang . '</a>';
         }
 
         return $return;
