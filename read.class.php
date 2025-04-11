@@ -23,7 +23,7 @@ class plugin_dst_read {
 class plugin_dst_read_forum extends plugin_dst_read {
 
     function viewthread_top_output() {
-        return '<style>.read{ background: url("static/image/common/scf.gif") no-repeat 0 50%; }</style>';
+        return '<style>.read{ background: url("static/image/common/scf.gif") no-repeat 4px 50%; padding-left: 25px; }</style>';
     }
 
     function viewthread_postfooter_output() {
